@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5a1152e-effc-46eb-91c5-bc2e86121bb3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Chapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SubChapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TableOfContents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/paragraph.java" afterDir="false" />
+    <list default="true" id="c5a1152e-effc-46eb-91c5-bc2e86121bb3" name="Changes" comment="lab 2">
+      <change afterPath="$PROJECT_DIR$/src/ChapterComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SubChapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/image.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paragraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/paragraph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -32,6 +35,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2WeYePiGqojYTiAJRv4bCrNJztJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -54,6 +60,18 @@
       <option name="presentableId" value="Default" />
       <updated>1697094610630</updated>
     </task>
+    <task id="LOCAL-00001" summary="lab 2">
+      <created>1697696415057</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697696415057</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lab 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab 2" />
   </component>
 </project>
