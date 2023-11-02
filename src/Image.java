@@ -1,8 +1,20 @@
-public class Image implements ChapterComponent {
+import java.util.concurrent.TimeUnit;
+
+class Image implements Picture, ChapterComponent {
     private String name;
 
     public Image(String name) {
         this.name = name;
+        try {
+            TimeUnit.SECONDS.sleep(5);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Override
+    public void display() {
+        System.out.println("Image name: " + name);
     }
 
     @Override
@@ -12,6 +24,6 @@ public class Image implements ChapterComponent {
 
     @Override
     public void print() {
-        System.out.println("Image with name: " + name);
+        display();
     }
 }
