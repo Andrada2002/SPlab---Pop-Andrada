@@ -1,3 +1,5 @@
+package models;
+
 class ImageProxy implements Picture, ChapterComponent {
     private String name;
     private Image realImage;

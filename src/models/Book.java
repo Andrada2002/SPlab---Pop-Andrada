@@ -1,3 +1,7 @@
+package models;
+
+import models.Author;
+
 import java.util.ArrayList;
 
 public class Book {
@@ -18,7 +22,7 @@ public class Book {
     }
 
     public void print() {
-        System.out.println("Book: " + title);
+        System.out.println("models.Book: " + title);
         System.out.println("Authors:");
         for (Author author : authors) {
             System.out.println(author.toString());

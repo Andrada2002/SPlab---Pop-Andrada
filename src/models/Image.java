@@ -1,3 +1,5 @@
+package models;
+
 import java.util.concurrent.TimeUnit;
 
 class Image implements Picture, ChapterComponent {
@@ -14,7 +16,7 @@ class Image implements Picture, ChapterComponent {
 
     @Override
     public void display() {
-        System.out.println("Image name: " + name);
+        System.out.println("models.Image name: " + name);
     }
 
     @Override

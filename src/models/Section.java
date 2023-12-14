@@ -1,3 +1,5 @@
+package models;
+
 import java.util.ArrayList;
 public class Section implements ChapterComponent {
     private String title;
@@ -18,7 +20,7 @@ public class Section implements ChapterComponent {
 
     @Override
     public void print() {
-        System.out.println("Section: " + title);
+        System.out.println("models.Section: " + title);
         for (ChapterComponent chapterComponent : subSectionsAndContents) {
             chapterComponent.print();
         }
